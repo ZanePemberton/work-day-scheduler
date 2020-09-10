@@ -7,7 +7,7 @@ $(document).ready(function(){
         $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
     };
 
-    //Color coding schedule dependant upon hour
+    //Color coding dependant upon hour
     function colorSchedule(){
         $("input").each(function(){
             var rowHour = $(this).attr("id");
